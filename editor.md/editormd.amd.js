@@ -22,8 +22,8 @@
 	{
         if (define.amd) // for Require.js
         {
-            var cmModePath  = "editor.md/lib/codemirror/mode/";
-            var cmAddonPath = "editor.md/lib/codemirror/addon/";
+            var cmModePath  = "codemirror/mode/";
+            var cmAddonPath = "codemirror/addon/";
 
             var codeMirrorModules = [
                 "jquery", "marked", "prettify",
@@ -84,6 +84,7 @@
             ];
 
             define(codeMirrorModules, factory);
+            console.log(codeMirrorModules);
         } 
         else 
         {
