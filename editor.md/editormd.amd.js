@@ -84,7 +84,6 @@
             ];
 
             define(codeMirrorModules, factory);
-            console.log(codeMirrorModules);
         } 
         else 
         {
